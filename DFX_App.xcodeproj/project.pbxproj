@@ -13,6 +13,7 @@
 		BB97B64A1FA511DA007705DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB97B6481FA511DA007705DB /* Main.storyboard */; };
 		BB97B64C1FA511DA007705DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB97B64B1FA511DA007705DB /* Assets.xcassets */; };
 		BB97B64F1FA511DA007705DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB97B64D1FA511DA007705DB /* LaunchScreen.storyboard */; };
+		BB97B65A1FA51371007705DB /* AddClothing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB97B6591FA51371007705DB /* AddClothing.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB97B64B1FA511DA007705DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB97B64E1FA511DA007705DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB97B6501FA511DA007705DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB97B6591FA51371007705DB /* AddClothing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddClothing.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		BB97B6411FA511D9007705DB /* DFX_App */ = {
 			isa = PBXGroup;
 			children = (
+				BB97B6581FA51353007705DB /* Add Clothing */,
 				BB97B6421FA511DA007705DB /* AppDelegate.swift */,
 				BB97B6441FA511DA007705DB /* FirstViewController.swift */,
 				BB97B6461FA511DA007705DB /* SecondViewController.swift */,
@@ -65,6 +68,14 @@
 				BB97B6501FA511DA007705DB /* Info.plist */,
 			);
 			path = DFX_App;
+			sourceTree = "<group>";
+		};
+		BB97B6581FA51353007705DB /* Add Clothing */ = {
+			isa = PBXGroup;
+			children = (
+				BB97B6591FA51371007705DB /* AddClothing.storyboard */,
+			);
+			path = "Add Clothing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 			files = (
 				BB97B64F1FA511DA007705DB /* LaunchScreen.storyboard in Resources */,
 				BB97B64C1FA511DA007705DB /* Assets.xcassets in Resources */,
+				BB97B65A1FA51371007705DB /* AddClothing.storyboard in Resources */,
 				BB97B64A1FA511DA007705DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
